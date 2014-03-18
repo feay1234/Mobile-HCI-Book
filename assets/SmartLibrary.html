@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js\bootstrap.min.js"></script>
+    <!-- <link href="css\bootstrap-responsive.css" rel="stylesheet"> -->
+    <!-- <link href="css\bootmetro-icons.css" rel="stylesheet"> -->
+  </head>
+  <style type="text/css">
+    body{
+      /*background-color:#d3d3d3*/
+      background: white;
+    }
+    blockquote{
+      margin:20px;
+    }
+    .row{
+      background-color:#FFFFFF;
+      margin:20px;
+
+    }
+    .thumbnail{
+      margin: 20px;
+    }
+    img{
+      width: 140px;
+    }
+    #map_canvas {
+      width: 100%;
+      height: 100px;
+    }
+
+
+  </style>
+  <body style="">
+    
+  	<div class="row" name="Harry Potter and The Sorcerer Stone" location="My Home" date="" time="">
+          <blockquote>
+            <H2><span class="glyphicon glyphicon-home"></span> My Home</H2>
+            <footer>Anytime</footer>
+          </blockquote>
+          <div class="thumbnail" name="Harry Potter and The Sorcerer Stone">
+            <div class="media">
+              <a class="pull-left" ><img src="http://static3.businessinsider.com/image/511cffe5eab8ea1355000012-948-1445/new%20harry%20potter%20cover.jpg">
+              </a>
+              <div class="media-body">
+                <h3 class="media-heading">Harry Potter and The Sorcerer Stone</h3>
+                <p>Fantacy Book</p>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <h4>Read & Return Progress</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                      30 out of 100 pages
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                      10 days left
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+  	</div>  
+    
+    <div class="row"  name="Human-Computer Interaction" location="" date="10 March" time="9.30">
+        <blockquote>
+            <H2><span class="glyphicon glyphicon-calendar"></span> 10 March - 28 March 2014 (EXAM)</H2>
+            <footer>09:30 AM OR Anytime</footer>
+          </blockquote>
+          <div class="thumbnail" name="Human-Computer Interaction">
+            <div class="media">
+              <a class="pull-left"><img id="testImg" src="http://www.hcibook.com/e3-images/cover/DixFinal72dpi.jpg">
+              </a>
+              <div class="media-body">
+                <h3 class="media-heading">Human-Computer Interaction</h3>
+                <p>Exam Book</p>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+              
+                <h4>Read & Return Progress</h4>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                        30 out of 100 pages
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        10 days left
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row"  name="Daily Scottish Mail" location="Glasgow Central Station" date="" time="09:30">
+          <blockquote>
+            <H2><span class="glyphicon glyphicon-road"></span> Glasgow Central Station</H2>
+            <footer>09:30 AM OR Anytime</footer>
+          </blockquote>
+          <div class="thumbnail" name="Daily Scottish Mail">
+            <div class="media">
+              <a class="pull-left"><img src="http://makingthenews.co.uk/gallery/dailymailmotherofyear.jpeg-13.jpg">
+              </a>
+              <div class="media-body">
+                <h3 class="media-heading">Daily Scottish Mail</h3>
+                <p>Newspaper</p>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+              
+                <h4>Read & Return Progress</h4>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                        30 out of 100 pages
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        10 days left
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>  
+    <div class="row" name="Practical Software Engineering" location="Boyd Orr Building" date="25 April" time="12">
+        <blockquote>
+            <H2><span class="glyphicon glyphicon-map-marker"></span> Boyd Orr Building</H2>
+            <footer>12:30 PM - 17:00 PM</footer>
+          </blockquote>
+          <div class="thumbnail" name="Practical Software Engineering">
+            <div class="media">
+              <a class="pull-left"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRlOyXjEkMVvgnRmsNtYx1R7DiokhpeItiRvN7jTWwaNU5VXPyg">
+              </a>
+              <div class="media-body">
+                <h3 class="media-heading">Practical Software Engineering</h3>
+                <p>A Case Study Approach</p>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+                <h4>Read Progress</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                      70 out of 100 pages
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row" name="Snow White And The Seven Dwarfs" location="My Home" date="" time="8.00">
+          <blockquote>
+            <H2><span class="glyphicon glyphicon-home"></span> My Home & <span class="glyphicon glyphicon-time"></span> AFTER 08:00 PM</H2>
+            <footer>Anytime when my dauther goes bed</footer>
+          </blockquote>
+          <div class="thumbnail" name="Snow White And The Seven Dwarfs">
+            <div class="media">
+              <a class="pull-left"><img src="http://thegrownupya.files.wordpress.com/2013/02/600full-snow-white-and-the-seven-dwarfs-artwork.jpg">
+              </a>
+              <div class="media-body">
+                <h3 class="media-heading">Snow White And The Seven Dwarfs</h3>
+                <p>Cartoon Book</p>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+                <h4>Read Progress</h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                      40 out of 100 pages
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+    </div>  
+    
+    
+    
+
+
+   	<script type="text/javascript">
+      updateCurrentData(55.3234,12.12312,"kdjfkdf","dkfjdkf");
+	    function updateCurrentData(lat, lng, date, time) {
+	        $("#currentLocation").text(lat+","+lng);
+          $("#currentDate").text(date);
+          $("#currentTime").text(time);
+	    }
+
+      // filterBookByLocation("My Home");
+      function filterBookByLocation(key){
+        $( ".row" ).each(function() {
+          if(key == ""){
+            $(this).show();
+          }
+          else{
+            if ($(this).attr("location") != key){
+              $(this).hide();
+          }
+          }
+          
+        });
+      }
+      function filterBookByTime(){
+        $( ".row" ).each(function() {
+          if ($(this).attr("time") == ""){
+              $(this).hide();
+          }
+          else{
+            $(this).show();
+          }
+          
+        });
+      }
+      function filterBookByDate(){
+        $( ".row" ).each(function() {
+          if ($(this).attr("date") == ""){
+              $(this).hide();
+          }
+          else{
+            $(this).show();
+          }
+          
+        });
+      }
+      function getFirstBook(){
+        $( ".thumbnail" ).each(function() {
+          if ($(this).is(":visible")){
+            Android.readBook($(this).attr("name"));
+            return false;
+          }
+          else{
+            
+          }
+          
+        });
+        // Android.readBook($(".thumbnail").attr("name"))
+      }
+
+      $(".thumbnail").click(function(){
+          Android.readBook($(this).attr("name"));
+      })
+
+
+
+	</script>
+    
+
+  </body>
+</html>
